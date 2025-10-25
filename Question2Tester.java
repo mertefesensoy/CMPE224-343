@@ -1,8 +1,8 @@
 //
 // Title: Question 2 Test Class
-// Author: [Your Name]
-// ID: [Your ID]
-// Section: [Your Section]
+// Author: Mert Efe Şensoy
+// ID: ***********
+// Section: 2
 // Assignment: 1
 // Description: Test cases for bipartite graph checking
 //
@@ -139,3 +139,4 @@ public class Question2Tester {
         testComplexNonBipartite();
     }
 }
+
