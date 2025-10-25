@@ -1,8 +1,8 @@
 //
 // Title: Critical Bridge Detection Program
-// Author: [Your Name]
-// ID: [Your ID]
-// Section: [Your Section]
+// Author: Mert Efe Şensoy
+// ID: ***********
+// Section: 2
 // Assignment: 1
 // Description: Finds all critical bridges in an island network
 //
@@ -49,5 +49,6 @@ public class Question1 {
         scanner.close();
     }
 }
+
 
 
