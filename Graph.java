@@ -1,8 +1,8 @@
-//
+ //
 // Title: Graph Data Structure for Bridge Detection
-// Author: [Your Name]
-// ID: [Your ID]
-// Section: [Your Section]
+// Author: Mert Efe Şensoy
+// ID: ***********
+// Section: 2
 // Assignment: 1
 // Description: Custom graph implementation using adjacency lists for bridge detection
 //
@@ -129,5 +129,6 @@ public class Graph {
         }
     }
 }
+
 
 
