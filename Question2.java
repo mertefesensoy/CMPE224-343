@@ -1,8 +1,8 @@
 //
 // Title: Bipartite Graph Checking Program
-// Author: [Your Name]
-// ID: [Your ID]
-// Section: [Your Section]
+// Author: Mert Efe Şensoy
+// ID: ***********
+// Section: 2
 // Assignment: 1
 // Description: Checks if museum networks are bipartite and finds odd cycles
 //
@@ -189,5 +189,6 @@ public class Question2 {
         }
     }
 }
+
 
 
