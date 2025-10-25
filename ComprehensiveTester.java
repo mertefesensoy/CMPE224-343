@@ -1,8 +1,8 @@
 //
 // Title: Comprehensive Test Class for Both Questions
-// Author: [Your Name]
-// ID: [Your ID]
-// Section: [Your Section]
+// Author: Mert Efe Şensoy
+// ID: ***********
+// Section: 2
 // Assignment: 1
 // Description: Complete test suite for both bridge detection and bipartite checking
 //
@@ -160,5 +160,6 @@ public class ComprehensiveTester {
         System.out.println("==========================================");
     }
 }
+
 
 
