@@ -1,0 +1,52 @@
+CMPE224 HW1 System Architecture
+================================
+
+                    ┌─────────────────────────────────┐
+                    │        CMPE224 HW1 System      │
+                    └─────────────────────────────────┘
+                                    │
+                    ┌───────────────┼───────────────┐
+                    │               │               │
+            ┌───────▼───────┐ ┌─────▼─────┐ ┌──────▼──────┐
+            │  Graph Class  │ │Question1  │ │ Question2   │
+            │               │ │(Bridges)  │ │(Bipartite)  │
+            └───────┬───────┘ └─────┬─────┘ └──────┬──────┘
+                    │               │               │
+        ┌───────────┼───────────────┼───────────────┼───────────┐
+        │           │               │               │           │
+   ┌────▼────┐ ┌───▼───┐ ┌─────────▼─────────┐ ┌───▼───┐ ┌───▼───┐
+   │Constructor│ │addEdge│ │    findBridges()  │ │ main()│ │ main()│
+   └───────────┘ └───────┘ └───────────────────┘ └───────┘ └───────┘
+        │           │               │               │           │
+   ┌────▼────┐ ┌───▼───┐ ┌─────────▼─────────┐ ┌───▼───┐ ┌───▼───┐
+   │getNeighbors│ │Graph │ │   dfsBridge()     │ │Input  │ │checkBipartite│
+   └───────────┘ └───────┘ └───────────────────┘ └───────┘ └───────┘
+        │           │               │               │           │
+   ┌────▼────┐ ┌───▼───┐ ┌─────────▼─────────┐ ┌───▼───┐ ┌───▼───┐
+   │Adjacency│ │Edge   │ │  Tarjan's Algorithm│ │Output │ │BFS    │
+   │Lists    │ │Storage│ │  - Discovery Time  │ │Format │ │Traversal│
+   └─────────┘ └───────┘ │  - Low Values     │ └───────┘ └───────┘
+                         │  - Bridge Detection│           │
+                         └───────────────────┘           │
+                                                         │
+                    ┌─────────────────────────────────────┼───────────┐
+                    │                                     │           │
+            ┌───────▼───────┐ ┌─────────▼─────────┐ ┌───▼───┐ ┌───▼───┐
+            │ Test Classes  │ │  checkBipartiteBFS │ │findOdd│ │findLCA│
+            │               │ │                   │ │Cycle  │ │       │
+            └───────┬───────┘ └───────────────────┘ └───────┘ └───────┘
+                    │
+        ┌───────────┼───────────┐
+        │           │           │
+   ┌────▼────┐ ┌───▼───┐ ┌─────▼─────┐
+   │Question1│ │Question2│ │Comprehensive│
+   │Tester   │ │Tester  │ │Tester      │
+   └─────────┘ └───────┘ └───────────┘
+
+Key Components:
+- Graph Class: Foundation data structure with adjacency lists
+- Question1: Bridge detection using Tarjan's algorithm
+- Question2: Bipartite checking using BFS with cycle detection
+- Test Classes: Comprehensive validation suite
+
+
