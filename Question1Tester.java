@@ -1,8 +1,8 @@
 //
 // Title: Question 1 Test Class
-// Author: [Your Name]
-// ID: [Your ID]
-// Section: [Your Section]
+// Author: Mert Efe Şensoy
+// ID: ***********
+// Section: 2
 // Assignment: 1
 // Description: Test cases for critical bridge detection
 //
@@ -111,5 +111,6 @@ public class Question1Tester {
         testDisconnected();
     }
 }
+
 
 
